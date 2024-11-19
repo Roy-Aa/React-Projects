@@ -1,0 +1,55 @@
+.clipline{
+    width: 80%;
+    height: 5rem;
+    background: silver;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: -0.5rem;
+    left: 5rem;
+    border-radius: 1rem;
+}
+
+.clipcircle{
+    height: 4rem;
+    width:4rem;
+    border-radius: 50%;
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -2rem;
+    left: 45%;
+}
+
+.clipblackcircle{
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    background: black;
+}
+
+@media (max-width: 450px) {
+    .clipline{
+        left: 4.5rem;
+    }
+}
+
+@media (max-width: 400px) {
+    .clipline{
+        left: 4rem;
+    }
+}
+
+@media (max-width: 350px) {
+    .clipline{
+        left: 3.5rem;
+    }
+}
+
+@media (max-width: 300px) {
+    .clipline{
+        left: 3rem;
+    }
+}

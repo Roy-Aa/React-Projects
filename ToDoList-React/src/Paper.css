@@ -1,0 +1,36 @@
+section{
+    width: 90%;
+    height: 90%;
+    background: white;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.7rem;
+}
+
+figure > div{
+    border-bottom: 1px solid black;
+    text-align: start;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+
+figure > div > textarea{
+    resize: none;
+    border: none;
+    width: 100%;
+    padding-top: 1.1rem;
+}
